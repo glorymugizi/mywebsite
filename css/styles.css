@@ -1,3 +1,14 @@
+body{
+  margin: 10%;
+  background-color: rgb(157, 165, 182);
+  border: solid 2px cornsilk;
+  border-radius: 5px;
+}
+
+
+
+
+
 h1{
   color: rgba(0, 255, 55, 0.363);
 }
