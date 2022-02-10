@@ -1,14 +1,38 @@
 body{
-  margin: 10%;
-  background-color: rgb(157, 165, 182);
-  border: solid 2px cornsilk;
+  margin: 3%;
+  padding: 1%;
+  background-color: rgb(69, 110, 148);
+}
+Main {
+  background-color: #fff;
+  padding: .2%;
+  
+}
+.navbar{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar li{
+  margin: 1px;
+}
+.navbar li a{
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 10px;
+  background-color: rgb(69, 110, 148);
+  color: #fff;
   border-radius: 5px;
 }
-
-
-
-
-
-h1{
-  color: rgba(0, 255, 55, 0.363);
+.navbar li a:hover{
+  background-color: #ffffff;
+  color: #000000;
 }
+
+.current{
+  background-color:red;
+  color: white;
+}
+
+
+
