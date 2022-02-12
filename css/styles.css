@@ -42,13 +42,12 @@ Main {
 .left-section{
   width: 50%;
   border: solid #fff 5px;
-
 }
 
-}
 .right-section{
-  background-color: #fff;
+  background-color: rgb(69, 110, 148);
   width: 50%;
+  border: solid #fff 5px;
 
 }
 .right-section h1{
