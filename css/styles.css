@@ -3,8 +3,13 @@ body{
   padding: 1%;
   background-color: rgb(69, 110, 148);
 }
-Main {
+header{
   background-color: #fff;
+  padding: .2%;
+
+}
+Main {
+  background-color:rgb(69, 110, 148);
   padding: .2%;
   
   
