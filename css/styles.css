@@ -37,6 +37,7 @@ Main {
   margin: -.01rem;
   margin-top: 0.1em;
   margin-bottom: 0.1em;
+  height: 80vh;
 }
 .left-section{
   width: 50%;
@@ -55,7 +56,5 @@ Main {
 .formlabel{
   color: #ffffff;
 }
-img{
-  height:30em;
-}
+
 
