@@ -1,60 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
 body{
-  margin: 1em;
-  padding: 1em;
-  background-color: rgb(69, 110, 148);
+  background-image: url("/images/backgroundUnsplash.jpg");
+  background-size: cover;
 }
 header{
-  background-color: #fff;
-  padding: .2rem;
-
+  background-color: #ffffff;
 }
-Main {
-  background-color:rgb(69, 110, 148);
-  padding: .1em;  
+h1{
+  color: #e2c574;
+  font-size: 3rem;
+}
+
+h3{
+  color: #e2c574;
 }
 .navbar{
-  list-style: none;
   display: flex;
-  justify-content: flex-end;
+  list-style: none;
+  justify-content:space-evenly;
+  padding: 1em;
+  
 }
 .navbar li{
-  margin: -.1rem; 
+  font-size: 1.5rem ;
+  padding: .5em;
 }
 .navbar li a{
   text-decoration: none;
-  font-size: .9rem;
   padding: 1rem;
-  background-color: rgb(69, 110, 148);
-  color: #fff;
-  
 }
 .navbar li a:hover{
-  background-color: #ffffff;
-  color: #000000;
+background-color:#000000;
+color: #e2c574;
+transition: ease 2s;
 }
-.homepage{
+
+.mainsection{
   display: flex;
-  margin: -.01rem;
-  margin-top: 0.1em;
-  margin-bottom: 0.1em;
   height: 80vh;
 }
 .left-section{
   width: 50%;
-  border: solid #fff 5px;
+  padding: 4rem;
+  
+  
 }
 
 .right-section{
-  background-color: rgb(69, 110, 148);
+  
   width: 50%;
-  border: solid #fff 5px;
-
 }
-.right-section h1{
-  color: #fff;
+form{
+  padding: 3em;
 }
 .formlabel{
-  color: #ffffff;
+  color: #e2c574;
+  font-size: 1.5em;
 }
-
-
