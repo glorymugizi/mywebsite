@@ -1,12 +1,15 @@
-*{
+/*rests the body margin and padding */
+*{ 
   margin: 0;
   padding: 0;
  
 }
+/*body bacground image */
 body{
   background-image: url("/images/backgroundUnsplash.jpg");
   background-size: cover;
 }
+/*set the header background color to white,area where the navigation links are */
 header{
   background-color: #ffffff;
 }
@@ -18,6 +21,7 @@ h1{
 h3{
   color: #e2c574;
 }
+/*flex box container for the navigation*/
 .navbar{
   display: flex;
   list-style: none;
@@ -42,22 +46,22 @@ background-color:#000000;
 color: #e2c574;
 transition: ease 2s;
 }
-
+/*flex container for the main content and is divided into two sections */
 .mainsection{
   display: flex;
   height: 80vh;
-}
+  align-items:center;
+}   
 .left-section{
   width: 50%;
-  padding: 4rem;
-  
-  
+  padding: 4rem; 
 }
-
 .right-section{
   
   width: 50%;
 }
+
+/*form styles */
 form{
   padding: 3em;
 }
