@@ -65,6 +65,7 @@ transition: ease 2s;
 .right-section{
   width: 50%;
 }
+/* form sytles on contact page */
 .form-container{
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -83,12 +84,14 @@ input[type=text], input[type=email] ,input[type=number],textarea {
   border-bottom: solid 2px;
   color: #000;
 }
+/* form buttons on contact page */
 button[type=submit] ,button[type=reset]{
   background-color: #121414;
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 20px;
   cursor: pointer;
   margin: 1em;
+  width: 30%;
 }
