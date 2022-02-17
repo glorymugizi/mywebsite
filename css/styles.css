@@ -90,4 +90,5 @@ button[type=submit] ,button[type=reset]{
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin: 1em;
 }
