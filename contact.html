@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css\styles.css">
   <title>Mugizi Glory</title>
 </head>
-<body>
+<body class="contact">
     <header>
         <ul class="navbar">
           <li ><a href="index.html">Home</a></li>
@@ -21,23 +21,29 @@
     <div class="mainsection">
 
       <div class="left-section">
+        <div class="form-container">
         <form action="" method="post">
           <fieldset>
             <legend class="formlabel">Send us a message</legend>
+
             <label class="formlabel">First name</label>
-          <input type="text" name="first_name" size="25" placeholder="First name"><br><br><br>
+          <input type="text" name="first_name" placeholder="Your first name">
+
           <label class="formlabel">last Name</label>
-          <input type="text" name="last_name" required size="25" placeholder="last name"><br><br><br>
+          <input type="text" name="last_name" required  placeholder="Your last name">
+
           <label class="formlabel">Email</label>
-          <input type="email" name="email" required size="25" placeholder="your email"><br><br><br>
+          <input type="email" name="email" required  placeholder="Your email">
+
           <label class="formlabel">Phone Number</label>
-          <input type="number" name="phone_number" required size="40" placeholder="phone number"><br><br><br>
-          <label class="formlabel">Message</label><br><br>
-          <textarea name="message" id="" cols="30" rows="10" placeholder="your message"></textarea><br><br><br>
+          <input type="number" name="phone_number" required  placeholder="phone number">
+
+          <label class="formlabel">Message</label>
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Write to us"></textarea>
           <button type="reset"> Clear</button><button type="submit">Submit</button>
         </fieldset>
         </form>
-
+        </div>
       </div>
       <div class="right-section">
         <h3>Let's chat.</h3>
