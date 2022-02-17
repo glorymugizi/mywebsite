@@ -4,8 +4,8 @@
   padding: 0;
  
 }
-/*body bacground image */
-body{
+/*body bacground image for the index page */
+body.homepage{
   background-image: url("/images/backgroundUnsplash.jpg");
   background-size: cover;
 }
@@ -60,11 +60,4 @@ transition: ease 2s;
   
   width: 50%;
 }
-/*form styles */
-form{
-  padding: 3em;
-}
-.formlabel{
-  color: #e2c574;
-  font-size: 1.5em;
-}
+
