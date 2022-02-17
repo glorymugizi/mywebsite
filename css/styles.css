@@ -51,7 +51,7 @@ transition: ease 2s;
   display: flex;
   height: 80vh;
   align-items:center;
-}   
+}
 .left-section{
   width: 50%;
   padding: 4rem; 
@@ -60,7 +60,6 @@ transition: ease 2s;
   
   width: 50%;
 }
-
 /*form styles */
 form{
   padding: 3em;
