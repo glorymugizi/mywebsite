@@ -95,3 +95,9 @@ button[type=submit] ,button[type=reset]{
   margin: 1em;
   width: 30%;
 }
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+.navbar{
+    flex-direction: column;
+}
+}
