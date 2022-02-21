@@ -29,8 +29,8 @@ h3{
 .navbar{
   display: flex;
   list-style: none;
-  justify-content:space-evenly;
-  padding: 1em;
+  justify-content:flex-end;
+  padding: .5em;
   
 }
 .current{
@@ -38,7 +38,7 @@ h3{
   color: #e2c574;
 }
 .navbar li{
-  font-size: 1.5rem ;
+  font-size: 1rem ;
   padding: .5em;
 }
 .navbar li a{
@@ -58,12 +58,12 @@ transition: ease 2s;
   
 }
 .left-section{
-  width: 50%;
+  width: 30%;
   /* padding: .5rem; */
   margin: 2rem;
 }
 .right-section{
-  width: 50%;
+  width: 70%;
 }
 /* form sytles on contact page */
 .form-container{
@@ -95,9 +95,21 @@ button[type=submit] ,button[type=reset]{
   margin: 1em;
   width: 30%;
 }
+/* card on the contact page */
+.card-panel {
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  padding: 24px;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
 /*If the screen size is 600px wide or less, hide the element */
 @media only screen and (max-width: 840px) {
-.navbar{
+  .navbar{
     flex-direction: column;
 }
 .mainsection{
@@ -131,9 +143,4 @@ button[type=submit] ,button[type=reset]{
 
 
 
-/* If the screen size is 600px wide or less, hide the element
-@media only screen and (max-width: 820px) {
-.mainsection .navbar{
-      flex-direction: column;
-  }
-  } */
+
