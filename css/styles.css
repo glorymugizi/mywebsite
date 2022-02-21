@@ -11,11 +11,11 @@ body.homepage{
 }
 /* background for other pages */
 body{
-  background-color: gray;
+  background-color:#8395a7;
 }
 /*set the header background color to white,area where the navigation links are */
 header{
-  background-color: #ffffff;
+  background-color: #c8d6e5;
 }
 h1{
   color: #e2c574;
@@ -36,6 +36,7 @@ h3{
 .current{
 	background-color:#000000;
   color: #e2c574;
+  border-bottom: solid 2px#e2c574 ;
 }
 .navbar li{
   font-size: 1rem ;
@@ -65,22 +66,32 @@ transition: ease 2s;
 .right-section{
   width: 70%;
 }
+.card-panel{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+
 /* form sytles on contact page */
 .form-container{
   border-radius: .313rem;
-  background-color: #f2f2f2;
+  background-color: #8395a7;
   padding: 0.625rem;
   font-size: 1rem;
 }
 input[type=text], input[type=email] ,input[type=number],textarea {
   width: 100%;
   padding: .313rem;
-  border: 0px solid #ccc;
+  border: 0px solid #8395a7;
   box-sizing: border-box;
   margin-top: .375rem;
   margin-bottom: 1rem;
   resize: vertical;
-  background-color: #f2f2f2;
+  background-color: #8395a7;
   border-bottom: solid 2px;
   color: #000;
 }
@@ -95,17 +106,6 @@ button[type=submit] ,button[type=reset]{
   margin: 1em;
   width: 30%;
 }
-/* card on the contact page */
-.card-panel {
-  -webkit-transition: -webkit-box-shadow .25s;
-  transition: -webkit-box-shadow .25s;
-  transition: box-shadow .25s;
-  transition: box-shadow .25s, -webkit-box-shadow .25s;
-  padding: 24px;
-  margin: 0.5rem 0 1rem 0;
-  border-radius: 2px;
-  background-color: #fff;
-}
 
 /*If the screen size is 600px wide or less, hide the element */
 @media only screen and (max-width: 840px) {
@@ -119,7 +119,7 @@ button[type=submit] ,button[type=reset]{
 /* form sytles on contact page */
 .form-container{
   border-radius: .313rem;
-  background-color: #f2f2f2;
+  background-color: #8395a7;
   padding: 0.5rem;
   font-size: 1rem;
 }
