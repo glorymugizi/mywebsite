@@ -117,15 +117,23 @@ button[type=submit] ,button[type=reset]{
   width: 30%;
 }
 /* myworks display panel */
-.mainsection .myworks_panel{
+.main-panel{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-self: center;
+}
+
+
+.myworks_panel{
   padding: 25px 0;
   margin: 5px;
-  width:480px;
-  height:360px;
+  /* width:480px; */
+  height:180px;
   text-align: center;
   border:4px solid olive;
   background-color: tomato;
   box-shadow: black 3px;
+  flex-basis: 33.333%;
 }
 
 /*If the screen size is 600px wide or less, hide the element */
