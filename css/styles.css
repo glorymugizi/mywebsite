@@ -160,6 +160,10 @@ button[type=submit] ,button[type=reset]{
 .right-section{
   width: 100vw;
 }
+.mains-panel{
+  flex-direction: column;
+  width: 100vw;
+}
 .myworks_panel{
   width: 100vw;
 }
