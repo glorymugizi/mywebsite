@@ -233,7 +233,7 @@ button[type=submit] ,button[type=reset]{
 /* form sytles on contact page */
 .form-container{
   border-radius: .313rem;
-  background-color: #02356b;
+  background-color: #ffffff;
   padding: 0.5rem;
   font-size: 1rem;
 }
