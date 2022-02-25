@@ -269,10 +269,11 @@ input[type=text], input[type=email] ,input[type=number],textarea {
 .myworks_panel{
   width: 100vw;
 }
-footer a{
+footer{
   background-color: #02356b;
   color: #ffffff;
-  display: block;
+  display:flex;
+  flex-direction: column;
 
 }
 }
