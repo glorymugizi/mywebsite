@@ -233,7 +233,7 @@ button[type=submit] ,button[type=reset]{
 /* form sytles on contact page */
 .form-container{
   border-radius: .313rem;
-  background-color: #8395a7;
+  background-color: #02356b;
   padding: 0.5rem;
   font-size: 1rem;
 }
@@ -245,6 +245,23 @@ button[type=submit] ,button[type=reset]{
 .right-section{
   width: 100vw;
 }
+
+input[type=text], input[type=email] ,input[type=number],textarea {
+  width: 100%;
+  padding: .313rem;
+  border: 0px solid #ffffff;
+  box-sizing: border-box;
+  margin-top: .375rem;
+  margin-bottom: 1rem;
+  resize: vertical;
+  background-color: #ffffff;
+  border-bottom: solid 2px;
+  color: #000;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
 .main-panel{
   flex-direction: column;
   width: 100vw;
@@ -252,5 +269,10 @@ button[type=submit] ,button[type=reset]{
 .myworks_panel{
   width: 100vw;
 }
+footer a{
+  background-color: #02356b;
+  color: #ffffff;
+  display: block;
 
+}
 }
