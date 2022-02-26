@@ -94,6 +94,12 @@ p{
   padding: 1rem;
   color: #ffffff;
 }
+.fixed-navbar{
+  display: flex;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 4rem; /* Position the navbar at the bottom of the page */
+  width: 100%; 
+}
 /* .navbar li a:hover{
 background-color:#000000;
 color: #e2c574;
