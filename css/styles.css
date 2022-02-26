@@ -27,6 +27,7 @@ header{
   font-size: 3rem;
 }
 footer{
+  display: flex;
   background-color: #02356b;
   color: #ffffff;
 }
@@ -50,7 +51,10 @@ hr{
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
-
+}
+p{
+  line-height: 3rem;
+  font-size: 1.7rem;
 }
 /*flex box container for the navigation*/
 .navbar{
@@ -176,23 +180,26 @@ button[type=submit] ,button[type=reset]{
 .main-panel{
   display: flex;
   flex-wrap: wrap;
-  justify-self: center;
+  justify-content: center;
   margin-left: 1.25rem;
   margin-right:1.25rem ;
+  margin: .5rem;
+  
 }
 
 .myworks_panel{
   padding: 1.563rem 0;
-  margin: .313rem;
+  margin: .5rem;
   /* width:480px; */
-  height:22.25rem;
+  height:20.25rem;
   text-align: center;
-  border:2px solid #02356b;
+  border:0.5px solid #02356b;
   background-color: #ffffff;
   box-shadow: black 3px;
-  flex-basis: 45%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  flex-basis: 35%;
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
+  border-radius: 20px;
 }
 .myworks_panel:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -205,15 +212,15 @@ button[type=submit] ,button[type=reset]{
 }
 .image1 {
   position: relative;
-  top: 20;
-  right: 150px;
+  top: 1.25rem;
+  right: 9.4rem;
   /* border: 1px red solid; */
   
 }
 .image2 {
   position: absolute;
-  top: 40px;
-  left: 100px;
+  top: 2.5rem;
+  left: 6.25rem;
   /* border: 1px green solid; */
   opacity: 0.8;
 }
@@ -222,6 +229,8 @@ button[type=submit] ,button[type=reset]{
 @media only screen and (max-width: 840px) {
   .navbar{
     flex-direction: column;
+    width: 100vw;
+    padding: 0;
 }
 .navband{
   visibility: hidden;
@@ -269,10 +278,14 @@ input[type=text], input[type=email] ,input[type=number],textarea {
 .myworks_panel{
   width: 100vw;
 }
+.image2{
+  visibility: hidden;
+}
 footer a{
   background-color: #02356b;
   color: #ffffff;
-  display:block;
+ flex-direction: column;
+  width: 100vw;
   
 
 }
