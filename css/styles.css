@@ -212,8 +212,9 @@ button[type=submit] ,button[type=reset]{
 }
 .image1 {
   position: relative;
-  top: 1.25rem;
-  right: 9.4rem;
+  /* top: -8rem; */
+  bottom: 5rem;
+  right: 8.4rem;
   /* border: 1px red solid; */
   
 }
