@@ -97,7 +97,7 @@ p{
 .fixed-navbar{
   display: flex;
   position: fixed; /* Set the navbar to fixed position */
-  bottom: 4rem; /* Position the navbar at the bottom of the page */
+  bottom: 3rem; /* Position the navbar at the bottom of the page */
   width: 100%; 
 }
 /* .navbar li a:hover{
@@ -119,9 +119,12 @@ transition: ease 2s;
   justify-content:flex-start;
   /* margin: 10px; */
   margin-left: 25%;
-  margin-right: 25%;
-
-  
+  margin-right: 25%; 
+}
+.profile-pic{
+  border: solid 1px;
+  border-radius: 28px;
+  width: 10%;
 }
 .left-section{
   width: 50%;
@@ -203,7 +206,7 @@ button[type=submit] ,button[type=reset]{
   background-color: #ffffff;
   box-shadow: black 3px;
   flex-basis: 35%;
-  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
   border-radius: 20px;
 }
