@@ -7,44 +7,108 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/onepage.css">
+  <script src="https://use.fontawesome.com/140cda8edd.js"></script>
 </head>
 <body>
-<div id="home"></div>
-
-
-
-<div class="content">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+  <div id="home">
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">Glory Mugizi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link disabled">Disabled</a>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">contact</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
+<div class="content">
+<h1>design and code.</h1>
+<a href="#" class="button"> <span></span> Know more</a>
+<div class="socialMediaLinks">
+  <a href=""> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+   <a href=""> <i class="fa fa-twitter"  aria-hidden="true"></i></a>
+   <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+  <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+  <a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+  <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+</div>
+     
+ </div>
 
-<div class="img"></div>
-<div class="overlay"></div>
+</div>
+</div>
+  
 
 
+
+
+
+<div id="about"><div class="sectionHeading"><h1>About us</h1></div></div>
+
+
+<div id="portfolio"><div class="sectionHeading"><h1>Portfolio</h1></div></div>
+
+<div id="contact"><div class="sectionHeading"><h1>Contact us</h1></div>
+<div class="mainsection">
+  <div class="left-section">
+    <h2>Let's chat.</h2>
+    <h2>let's create something together.</h2>
+    <h2>Contact</h2>
+    <h2>+256782617790</h2>
+    <h2>Based in Kampala.</h2>
+  </div>
+  <div class="right-section">
+    <div class="form-container">
+      <h2>Better together</h2>
+    <form action="" method="post">
+      <!-- <fieldset> -->
+        <!-- <legend class="formlabel">Send us a message</legend> -->
+
+        <label class="formlabel">First name</label>
+      <input type="text" name="first_name" >
+
+      <label class="formlabel">Last Name</label>
+      <input type="text" name="last_name" required  >
+
+      <label class="formlabel">Email</label>
+      <input type="email" name="email" required  >
+
+      <label class="formlabel">Phone Number</label>
+      <input type="number" name="phone_number" required  >
+
+      <label class="formlabel">Write to us</label>
+      <textarea name="message" id="" cols="30" rows="5" ></textarea>
+      <button type="reset"> Clear</button><button type="submit">Submit</button>
+    <!-- </fieldset> -->
+    </form>
+    </div>
+
+
+  </div>
 </div>
 
 
 
 
 
-<div id="about"></div>
 
-<div id="portfolio"></div>
-<div id="contact"></div>
+
+</div>
+
   
 </body>
 </html>
