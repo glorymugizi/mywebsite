@@ -1,0 +1,251 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+ #home{
+background-color: #634439;
+height: 100vh;
+width: 100vw;
+background-image: url("/images/claudia-chiavazza-N9vsB6OEeKM-unsplash.jpg");
+background-size: cover;
+
+} 
+
+#about{
+  background-color: #fd7e14;
+  height: 50vh;
+  width: 100vw;
+  flex-direction: column;
+  color: #ffffff;
+  text-align: center;
+  }
+  #portfolio{
+  display: flex;
+  background: wheat;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  text-align: center;
+  }
+  #contact{
+    display: flex;
+  background-color: white;
+  height: 80vh;
+  width: 100vw;
+  flex-direction: column;
+  }
+
+.navbar{
+  
+  background-color: #ffffff !important;
+  opacity: 0.9;
+  justify-content: space-between!;
+  border-top: 1px solid #fd7e14 !important;
+ 
+}
+
+.navbar :nth-child(1){
+  margin: auto;
+}
+.navbar-brand{
+  color: #000000 !important;
+  font-size: 1.5rem !important;
+}
+.nav-item{
+  margin-left: 3px !important;
+}
+.nav-link{
+  color: #000000 !important;
+  font-size: 1.5rem !important;  
+}
+
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.content h1{
+  font-size: 70px !important;
+  margin-top: 80px !important;
+  color: #ffffff !important;
+}
+.content p{
+  margin: 20px auto;
+  font-weight: 100px;
+  list-style: 25px;
+}
+.content .button{ 
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+.content span{
+  background-color: black;
+  width: 0;
+  height:100% ;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: -5s;
+}
+button:hover span{
+  width: 100%;
+}
+.button {
+  background-color: #fd7e14;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+.button:hover{
+    background-color: #ffffff;
+    color: #fd7e14;
+    border: 1px solid;
+    transition: ease 2s;
+  }
+.socialMediaLinks{
+  font-size: 2rem;
+  text-decoration: none;
+  letter-spacing: 1rem;
+}
+.fa{
+  color: #ffffff;
+  opacity: .6;
+}
+
+.aboutMeContainer
+{
+  display: flex;
+  height: 250px;
+  align-items:center;
+  justify-content:flex-start;
+  /* margin: 10px; */
+  margin-left: 10%;
+  margin-right: 10%; 
+  border: solid 1px black;
+  position: relative;
+  z-index: 1;
+}
+
+.mypic{
+  width: 30%;
+  height: 90%;
+  border: solid 1px black;
+  padding: .5rem;
+  margin: 1rem;
+  margin-left: 1rem;
+  border-radius: 100px;
+
+  
+}
+.myDetails{
+  width: 65%; 
+  height: 90%; 
+  border: solid 1px black;
+  margin: 1rem;
+}
+.portfolioContainer{
+  display: flex;
+  height: 550px;
+  align-items:center;
+  justify-content:flex-start;
+  /* margin: 10px; */
+  margin-left: 10%;
+  margin-right: 10%; 
+  border: solid 1px black;
+  position: relative;
+  z-index: 1;
+}
+.myportfoliolLeft{
+  width: 55%;
+  height: 90%;
+  border: solid 1px black;
+  padding: .5rem;
+  margin: 1rem;
+  margin-left: 1rem; 
+}
+.myportfoliolRight{
+  width: 40%; 
+  height: 90%; 
+  border: solid 1px black;
+  margin: 1rem;
+}
+.contactContainer{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  /* align-items:center; */
+  /* justify-content:flex-start; */
+  /* margin: 10px; */
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 30%; 
+  /* border: solid 1px black; */
+  position: relative;
+  z-index: 1;
+  width: 50vw;
+}
+.top{
+  width: 97%; 
+  height: 20%; 
+  /* border: solid 1px black; */
+  margin: 1rem;
+}
+.bottom{
+  width: 60%; 
+  height: 80%; 
+  /* border: solid 1px black; */
+  margin: 1rem;
+}
+/* form sytles on contact page */
+.form-container{
+  border-radius: .313rem;
+  background-color:#ffffff;
+  padding: 0.25rem;
+  font-size: 1rem;
+  
+}
+input[type=text], input[type=email] ,input[type=number],textarea {
+  width: 100%;
+  /* padding: .3rem; */
+  border: 0px solid #ffffff;
+  box-sizing: border-box;
+  margin-top: .375rem; 
+  margin-bottom: 1rem;
+  resize: vertical;
+  background-color: #ffffff;
+  border-bottom: solid 2px;
+  color: #000;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  /* margin-left: 2rem;
+  margin-right: 2rem; */
+}
+/* form buttons on contact page */
+button[type=submit] ,button[type=reset]{
+  background-color: #fd7e14;
+  color: white;
+  padding: .75rem;
+  border: none;
+  border-radius: 1.25rem;
+  cursor: pointer;
+  margin: .5em;
+  width: 30%;
+}
