@@ -1,0 +1,391 @@
+/*rests the body margin and padding */
+*{ 
+  margin: 0;
+  padding: 0;
+ 
+}
+
+body{
+  background-color :#ffffff;
+  
+}
+/*set the header background color to white,area where the navigation links are */
+header{
+  background-color: #02356b;
+  color: #ffffff;
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  
+}
+.content h1{
+  font-size: 70px;
+  margin-top: 80px;
+}
+.content p{
+  margin: 20px auto;
+  font-weight: 100px;
+  list-style: 25px;
+}
+.content .button{ 
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+.content span{
+  background-color: black;
+  width: 0;
+  height:100% ;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: -5s;
+}
+button:hover span{
+  width: 100%;
+}
+.socialMediaLinks{
+  font-size: 3rem;
+  text-decoration: none;
+}
+.fa-facebook{
+  color: #02356b;
+}
+.fa-twitter{
+  color: #53b4ec;
+}
+.fa-youtube{
+  color:rgba(247, 7, 7, 0.933);
+}
+.fa-github{
+  color: #000000;
+}
+
+.fa-google{
+color: red;
+}
+
+.fa-linkedin{
+  color:rgb(26, 115, 232);
+}
+  
+
+footer{
+  display: flex;
+  background-color: #02356b;
+  color: #ffffff;
+}
+h1 {
+  color: #02356b;
+  font-size: 3rem;
+}
+
+h2{
+  color: #02356b;
+}
+h3{
+  color: #02356b;
+}
+.horizontal-line{
+  margin-top: 5rem;
+}
+hr{
+  border: 1px solid #02356b;
+  border-radius: 1px;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+p{
+  line-height: 3rem;
+  font-size: 1.7rem;
+}
+/*flex box container for the navigation*/
+.navbar{
+  display: flex;
+  list-style: none;
+  justify-content:flex-start;
+  padding: .5em;
+  
+}
+.navband{
+  text-decoration: none;
+  font-size: 2rem;
+  font-style: italic;
+  color: #ffffff;
+}
+.navband img{
+  height:40px;
+  width: 100px;
+  margin: 0;
+}
+/* the navgation band/logo */
+.navbar :nth-child(1){
+  margin-right: auto;
+  
+}
+.current{
+	background-color:#53b4ec;
+  color: #e2c574;
+  border-bottom: solid 2px #02356b ;
+}
+.navbar li{
+  font-size: 1rem ;
+  padding: .5em;
+}
+.navbar li a{
+  text-decoration: none;
+  padding: 1rem;
+  color: #ffffff;
+}
+.fixed-navbar{
+  display: flex;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 3rem; /* Position the navbar at the bottom of the page */
+  width: 100%; 
+}
+/* .navbar li a:hover{
+background-color:#000000;
+color: #e2c574;
+transition: ease 2s;
+} */
+
+
+/*flex container for the main content and is divided into two sections */
+.homepage .mainsection{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.mainsection{
+  display: flex;
+  height: 100vh;
+  align-items:center;
+  justify-content:flex-start;
+  /* margin: 10px; */
+  margin-left: 25%;
+  margin-right: 25%; 
+}
+.profile-pic{
+  border: solid 1px;
+  border-radius: 28px;
+  width: 10%;
+}
+.left-section{
+  width: 50%;
+  /* padding: .5rem; */
+  /* margin: 2rem; */
+}
+.right-section{
+  width: 50%;  
+}
+.button {
+  background-color: #02356b;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+.button:hover{
+  background-color: #ffffff;
+  color: #02356b;
+  border: 1px solid;
+  transition: ease 2s;
+}
+/* ..................... */
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.portfolio_content{
+  background-color: white;
+  padding: 10px;
+}
+
+/* ............ */
+
+/* form sytles on contact page */
+.form-container{
+  border-radius: .313rem;
+  background-color:#ffffff;
+  padding: 0.625rem;
+  font-size: 1rem;
+}
+input[type=text], input[type=email] ,input[type=number],textarea {
+  width: 100%;
+  padding: .313rem;
+  border: 0px solid #ffffff;
+  box-sizing: border-box;
+  margin-top: .375rem;
+  margin-bottom: 1rem;
+  resize: vertical;
+  background-color: #ffffff;
+  border-bottom: solid 2px;
+  color: #000;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+/* form buttons on contact page */
+button[type=submit] ,button[type=reset]{
+  background-color: #02356b;
+  color: white;
+  padding: .75rem 1.25rem;
+  border: none;
+  border-radius: 1.25rem;
+  cursor: pointer;
+  margin: 1em;
+  width: 30%;
+}
+/* myworks display panel */
+.main-panel{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 1.25rem;
+  margin-right:1.25rem ;
+  margin: .5rem;
+  
+}
+
+.myworks_panel{
+  padding: 1.563rem 0;
+  margin: .5rem;
+  /* width:480px; */
+  height:20.25rem;
+  text-align: center;
+  border:0.5px solid #02356b;
+  background-color: #ffffff;
+  box-shadow: black 3px;
+  flex-basis: 35%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.myworks_panel:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/*If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 840px) {
+  .navbar{
+    flex-direction: column;
+    width: 100vw;
+    padding: 0;
+}
+.navband{
+  visibility: hidden;
+}
+.mainsection{
+  flex-direction: column;
+  width: 100vw;
+}
+/* form sytles on contact page */
+.form-container{
+  border-radius: .313rem;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.left-section{
+  width: 100vw;
+  /* padding: .5rem; */
+  /* margin: 2rem; */
+}
+.right-section{
+  width: 100vw;
+}
+
+input[type=text], input[type=email] ,input[type=number],textarea {
+  width: 100%;
+  padding: .313rem;
+  border: 0px solid #ffffff;
+  box-sizing: border-box;
+  margin-top: .375rem;
+  margin-bottom: 1rem;
+  resize: vertical;
+  background-color: #ffffff;
+  border-bottom: solid 2px;
+  color: #000;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+.main-panel{
+  flex-direction: column;
+  width: 100vw;
+}
+.myworks_panel{
+  width: 100vw;
+}
+.image2{
+  visibility: hidden;
+}
+footer a{
+  background-color: #02356b;
+  color: #ffffff;
+ flex-direction: column;
+  width: 100vw;
+  
+
+}
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
